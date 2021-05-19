@@ -4,9 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   <!-- Style Sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+   
+
     <title>Shelley Clem</title>
 </head>
 <body>
-    <h1>Portfolio Hello</h1>
+
+    <div class="wrapper"> 
+
+    
+      <!-- Nav Bar -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-whitesmoke">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+    <!-- Landing/Header -->
+    <header class="container" id="heading">
+        <div class="row">
+            <p><h1>Shelley Clem</h1></p>
+            <h4>Junior Web Developer</h4>
+          </div>
+        </header>
+    <!-- About -->
+
+      <div class="container" id="about">
+        <div class="row">
+          <h5>About</h5>
+          <article>
+          Welcome, and thanks for visiting my portfolio! Please feel free to browse my projects section, where you'll find my work in HTML, CSS and Vanilla JavaScript. As you can see, I'm a green coder, but I quickly learn more every day--especially as a full-time sudent in Eleven Fifty Academy's web development program. Please come say hi and leave some feedback in the contact form, as well. Thanks again!
+          </article>
+        </div>
+      </div>
+
+           
+                
+
+    <!-- Projects -->
+        <div class="container" id="projects">
+          <h5>Projects</h5>
+          </br>
+          </br>
+          <div class="row">
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <a href="https://codepen.io/shelleyclem/pen/OJWGxJp" target="_blank">
+                  <img class="card-img-top" src="./assets/Screen Shot 2021-05-18 at 1.17.11 PM.png" alt="CSS Creature - Pillow Piper">
+                </a>
+                  <div class="card-body">
+                    <h3 class="card-title">CSS Creature</h5>
+                    <p class="card-text">This was a class assignment to create a creature using only HTML and CSS. My creature 'Pillow Piper' is based off a picture my niece drew of my dog.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <a href="https://shelleyclem.github.io/catFactsAPI/" target="_blank">
+                  <img class="card-img-top" src="./assets/Screen Shot 2021-05-18 at 1.32.41 PM.png" alt="Cat Facts API">
+                </a>
+                  <div class="card-body">
+                    <h3 class="card-title">Cat Facts API</h5>
+                    <p class="card-text">This cat facts API project fetches and displays a new cat fact each time the user clicks a button.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <a href="https://shelleyclem.github.io/staticLayout/" target="_blank">
+                  <img class="card-img-top" src="./assets/Screen Shot 2021-05-18 at 8.10.49 PM.png" alt="Hulu Static Layout">
+                </a>
+                  <div class="card-body">
+                    <h3 class="card-title">Static Layout</h5>
+                    <p class="card-text">Class project recreating the Hulu homepage and familiarizing myself with Flexbox.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </br>
+        </br>
+        <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <a href="https://codepen.io/shelleyclem/pen/OJWGxJp" target="_blank">
+                <img class="card-img-top" src="./assets/Screen Shot 2021-05-18 at 10.47.31 PM.png" alt="Giphy API">
+              </a>
+                <div class="card-body">
+                  <h3 class="card-title">Giphy API</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <a href="https://github.com/shelleyclem" target="_blank">
+                <img class="card-img-top" src="./assets/Screen Shot 2021-05-18 at 2.22.05 PM.png" alt="Blue Badge img">
+              </a>
+                <div class="card-body">
+                  <h3 class="card-title">Blue Badge Project</h5>
+                  <p class="card-text">This is where my future blue badge project will go.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <a href="https://github.com/shelleyclem" target="_blank">
+                <img class="card-img-top" src="./assets/Screen Shot 2021-05-18 at 2.22.35 PM.png" alt="Red Badge img">
+              </a>
+                <div class="card-body">
+                  <h3 class="card-title">Red Badge Project</h5>
+                  <p class="card-text">This is where my future Red Badge project will go.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    <!-- Contact -->
+        <div class="container" id="contact">
+          <h5>Contact</h5>
+          <br>
+            <div class="contactMe" id= "contactForm">
+            <form action="https://formspree.io/f/mwkavrpq" class="container-sm" method="POST">
+                <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Name</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Name" rows="1" required name="name"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required name="_replyto">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message here" rows="3" required name="message"></textarea>
+                </div>
+
+                
+        
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="container" id="find">
+          <h5>Find Me </h5>
+          <div class="row">
+            <div class="col">
+              <a href="https://github.com/shelleyclem" target="_blank"><img src="./assets/GitHub-Mark-120px-plus.png" alt="GitHub icon"></a>
+            </div>
+            <div class="col">
+              <a href="https://www.linkedin.com/in/shelley-clem-3684438/" target="_blank"><img src="./assets/06-functions.png" alt="LinkedIn icon"></a>
+            </div>
+            <div class="col">
+              <a href="https://codepen.io/shelleyclem" target="_blank"><img src="./assets/Button-Fill-Black-Large.png" alt="CodePen icon"></a>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- Footer -->
+        <div id="footer">
+          <footer>
+            <br>
+          <p class="theEnd">© 2021 Shelley Clem</p>
+          <br>
+          </footer>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>
