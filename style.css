@@ -5,6 +5,12 @@
     overflow-x: hidden;
 }
 
+.background {
+    background-image: url(./assets/augustine-wong-oebTM5wHTfw-unsplash.jpg);
+    background-size: contain;
+
+}
+
 .container {
     margin-left: 10vw;
     margin-right: 10vw;
